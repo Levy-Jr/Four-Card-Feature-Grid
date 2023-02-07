@@ -18,9 +18,10 @@ body{
   background-color: var(--Very-Light-Gray);
   font-family: 'Poppins', sans-serif;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   min-height: 100vh;
-  padding-block: 4rem;
+  padding-block: 4rem 1rem;
 }
 
 .container{
@@ -93,6 +94,10 @@ article::after{
 
 .supervisor{
   transform: translateY(100px);
+}
+
+footer{
+  margin-top: 3rem;
 }
 
 /* .team-builder{
